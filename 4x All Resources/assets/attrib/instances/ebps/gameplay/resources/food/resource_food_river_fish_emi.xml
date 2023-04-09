@@ -1,0 +1,12 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions" comment="This is parented to the river_fish asset. Any tuning you do to the parent will be updated to this asset. This duplicate was created for the Festival FX for the emissive biomes (November 21, 2022) ">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1357695435" List.ParentItemID="1357695435">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\gameplay\resources\food\resource_food_river_fish_emi" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\resource_deposit_ext" List.ItemID="1154380647" List.ParentItemID="1154380647">
+			<float name="initial_amount" value="2000" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2126583" />
+	<instance_reference name="parent_pbg" value="ebps\gameplay\resources\food\resource_food_river_fish" />
+</instance>

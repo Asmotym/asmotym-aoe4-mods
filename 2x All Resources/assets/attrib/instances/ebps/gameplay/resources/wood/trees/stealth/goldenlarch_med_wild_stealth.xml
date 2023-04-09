@@ -1,0 +1,12 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions" comment="DO NOT USE further - but do not delete as it's reference in campaign maps&#xD;&#xA;goldenlarch is now the larch -  usin larch as the parent_pbg">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1216464913" List.ParentItemID="-1216464913">
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\resource_deposit_ext" List.ItemID="776156627" List.ParentItemID="776156627">
+			<float name="initial_amount" value="300" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="177921" />
+	<instance_reference name="parent_pbg" value="ebps\gameplay\resources\wood\trees\stealth\larch_med_wild_stealth" />
+</instance>

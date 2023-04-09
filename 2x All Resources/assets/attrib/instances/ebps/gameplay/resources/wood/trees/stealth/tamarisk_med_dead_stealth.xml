@@ -1,0 +1,17 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1216464913" List.ParentItemID="-1216464913">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\gameplay\resources\wood\trees\stealth\tamarisk_med_dead_stealth" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="2113018434" List.ParentItemID="2113018434">
+			<file name="icon_name" value="gaia\tamarisk_med_dead" overrideParent="True" />
+			<locstring name="screen_name" value="11220705" overrideParent="True" />
+			<locstring name="screen_name_world" value="11220705" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\resource_deposit_ext" List.ItemID="776156627" List.ParentItemID="776156627">
+			<float name="initial_amount" value="300" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2061885" />
+	<instance_reference name="parent_pbg" value="ebps\gameplay\resources\wood\trees\stealth_tree" />
+</instance>

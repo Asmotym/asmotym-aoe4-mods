@@ -1,0 +1,12 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1156850997" List.ParentItemID="1156850997">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\gameplay\resources\food\resource_food_deep_water_fish_emi" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\resource_deposit_ext" List.ItemID="-1749454624" List.ParentItemID="-1749454624">
+			<float name="initial_amount" value="2000" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2126821" />
+	<instance_reference name="parent_pbg" value="ebps\gameplay\resources\food\resource_food_deep_water_fish" />
+</instance>

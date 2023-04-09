@@ -1,0 +1,30 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1216464913" List.ParentItemID="-1216464913">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\gameplay\resources\wood\trees\dense\birch_tall_dead" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="2113018434" List.ParentItemID="2113018434">
+			<file name="icon_name" value="gaia\birch_tall_dead" overrideParent="True" />
+			<locstring name="screen_name" value="11145794" overrideParent="True" />
+			<locstring name="screen_name_world" value="11145794" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\resource_deposit_ext" List.ItemID="776156627" List.ParentItemID="776156627">
+			<float name="initial_amount" value="300" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\boundary_cells_ext" List.ItemID="629844210" List.ParentItemID="629844210">
+			<bool name="allow_cells_on_wall" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\audio_ext" List.ItemID="457334264" List.ParentItemID="457334264">
+			<list name="select_audible_to_relation_list" overrideParent="True">
+				<enum name="relationship_type" value="neutral" List.ItemID="-1325634652" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\mesh_area_tag_ext" List.ItemID="1110556086" List.ListAction="Append">
+			<enum name="mesh_area_type" value="dense_woods" />
+			<bool name="prevent_stomping_while_attached" value="True" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="133333" />
+	<instance_reference name="parent_pbg" value="ebps\gameplay\resources\wood\trees\core_tree" />
+</instance>
