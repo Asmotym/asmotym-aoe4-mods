@@ -143,8 +143,8 @@
 					</d4p1:ArchiveParameters.FileVerificationSetting>
 				</d4p1:FileVerificationSettings>
 				<d4p1:MaximumArchiveSize>0</d4p1:MaximumArchiveSize>
-				<d4p1:Name>2x_All_Resources</d4p1:Name>
-				<d4p1:NiceName>3ef2877bd18e4f368c91ac8c90997c05</d4p1:NiceName>
+				<d4p1:Name>4x_All_Resources</d4p1:Name>
+				<d4p1:NiceName>c67ce380edcd4b5bab2e687ca6bf1036</d4p1:NiceName>
 				<d4p1:Version>0</d4p1:Version>
 			</Parameters>
 		</NamedParameters>

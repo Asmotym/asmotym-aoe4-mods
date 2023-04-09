@@ -8,7 +8,9 @@
 				<d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
 					<d2p1:Key>AssetExplorerGeneric</d2p1:Key>
 					<d2p1:Value>
-						<d2p1:string>assets</d2p1:string>
+						<d2p1:string>assets\attrib\instances\ebps\gaia\animals</d2p1:string>
+						<d2p1:string>assets\_default.burnproj</d2p1:string>
+						<d2p1:string>assets\mod.png</d2p1:string>
 					</d2p1:Value>
 				</d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
 			</d3p1:ExpandedPaths>
@@ -21,8 +23,10 @@
 	</PluginSettings>
 	<RecentFiles>
 		<History xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-			<d3p1:string>C:\Users\Asmotym\Documents\4x All Resources\assets\mod.png</d3p1:string>
-			<d3p1:string>C:\Users\Asmotym\Documents\4x All Resources\assets\mod.rdo</d3p1:string>
+			<d3p1:string>C:\Users\Asmotym\Documents\asmotym-aoe4-mods\4x All Resources\assets\mod.rdo</d3p1:string>
+			<d3p1:string>C:\Users\Asmotym\Documents\asmotym-aoe4-mods\4x All Resources\assets\_default.burnproj</d3p1:string>
+			<d3p1:string>C:\Users\Asmotym\Documents\asmotym-aoe4-mods\4x All Resources\assets\mod.png</d3p1:string>
+			<d3p1:string>C:\Users\Asmotym\Documents\asmotym-aoe4-mods\4x All Resources\assets\attrib\4x All Resources.xml</d3p1:string>
 		</History>
 	</RecentFiles>
 </ProjectSettings>
