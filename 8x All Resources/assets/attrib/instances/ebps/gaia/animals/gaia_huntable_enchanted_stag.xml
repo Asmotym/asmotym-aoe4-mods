@@ -1,0 +1,18 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1869525707" List.ParentItemID="-1869525707">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\gaia\animals\gaia_huntable_prototype_enchanted_stag" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="675827046" List.ParentItemID="675827046">
+			<float name="hitpoints" value="100" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\resource_deposit_ext" List.ItemID="1804863216" List.ParentItemID="1804863216">
+			<float name="initial_amount" value="2800" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\audio_ext" List.ItemID="869527606" List.ParentItemID="869527606">
+			<string name="single_select_event" value="sfx_animal_stag_select" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2123253" />
+	<instance_reference name="parent_pbg" value="ebps\gaia\animals\gaia_huntable_deer" />
+</instance>
